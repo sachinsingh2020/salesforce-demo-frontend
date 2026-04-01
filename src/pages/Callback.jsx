@@ -5,6 +5,7 @@ const Callback = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log("sachin singh callback page");
     const params = new URLSearchParams(window.location.search);
 
     const code = params.get("code");

@@ -1,6 +1,6 @@
 export const getLoginUrl = () => {
   console.log("client id: ", import.meta.env.VITE_CLIENT_ID);
-  console.log("redirect uri: ", mport.meta.env.VITE_REDIRECT_URI);
+  console.log("redirect uri: ", import.meta.env.VITE_REDIRECT_URI);
   const params = new URLSearchParams({
     response_type: "code",
     client_id: import.meta.env.VITE_CLIENT_ID,

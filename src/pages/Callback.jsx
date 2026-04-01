@@ -17,7 +17,6 @@ const Callback = () => {
 
     if (code) {
       console.log("Authorization Code:", code);
-      return;
 
       // Send to backend for token exchange
       fetch(`${import.meta.env.VITE_BACKEND_URL}/auth/token`, {
